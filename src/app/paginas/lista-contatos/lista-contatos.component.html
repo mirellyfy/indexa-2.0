@@ -1,0 +1,25 @@
+<app-container>
+  <app-cabecalho></app-cabecalho>
+
+  <input
+    type="search"
+    placeholder="Digite para buscar"
+    [(ngModel)]="filtroPorTexto"
+  />
+
+  <section class="adicionar-contato">
+    <button routerLink="/formulario">
+      <img src="assets/plus.png" alt="">
+      <span>Adicionar contato</span>
+    </button>
+  </section>
+
+  @for (letra of alfabeto; track letra) {
+    <app-separador>
+      {{ letra }}
+    </app-separador>
+    @for (contato of filtrarContatosPorLetraInicial(letra); track contato.id) {
+      <app-contato [nome]="contato.nome" [telefone]="contato.telefone" ></app-contato>
+    }
+  }
+</app-container>

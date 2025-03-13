@@ -1,0 +1,172 @@
+header .cabecalho-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .cabecalho-link img {
+  align-self: center;
+  margin-bottom: 56px;
+}
+
+header .cabecalho-link div {
+  display: flex;
+  align-self: flex-start;
+}
+
+header .cabecalho-link img.seta {
+  margin: 0 8px;
+}
+
+header .cabecalho-link button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+header .cabecalho-link a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #0D6EFD;
+}
+
+header .cabecalho-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0D6EFD;
+  margin: 12px 0;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #CED4DA;
+  width: 100%;
+  margin: 8px 0 12px 0;
+  padding: 6px 12px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+input#redes {
+  border-radius: 0 4px 4px 0;
+  padding: 0 12px;
+}
+
+input#aniversario {
+  width: 224px;
+  display: block;
+}
+
+label[for="redes"] {
+  display: block;
+}
+
+textarea {
+  height: 84px;
+}
+
+label {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+input::placeholder, textarea::placeholder {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+input:focus {
+  outline: none;
+}
+
+.span-http {
+  width: 72px;
+  height: 37px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #CED4DA;
+  background-color: #E9ECEF;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 8px 0 12px;
+  line-height: 37px;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao-cancelar, .botao-salvar, .botao-desabilitado {
+  width: 196px;
+  height: 41px;
+  padding: 6px, 12px;
+  border-radius: 4px;
+  border: 1px;
+  gap: 8px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.botao-cancelar {
+  color:#0D6EFD;
+  background-color: #FFFFFF;
+  border: 1px solid #0D6EFD;
+  cursor: pointer;
+
+}
+
+.botao-salvar {
+  color:#FFFFFF;
+  background-color: #0D6EFD;
+  cursor: pointer;
+}
+
+.botao-desabilitado {
+  background-color: #ADB5BD;
+  cursor:not-allowed;
+}
+
+.mensagem-erro {
+  font-size: 16px;
+  color: red;
+  margin-bottom: 12px;
+}
