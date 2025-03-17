@@ -1,4 +1,3 @@
-![Descricao da sua imagem](./thumbnail.png)
 
 # Indexa
 
@@ -20,24 +19,3 @@ As técnicas e tecnologias utilizadas pra isso são:
 - `Obtenção de parâmetros de rota`: utilização do ActivatedRoute para obter parâmetros de rota e personalizar a exibição de detalhes de acordo com o contexto;
 - `Configuração do JSON Server`: configuração de uma API fake utilizando o JSON Server para simular o backend e testar as operações CRUD sem a necessidade de uma API real.
 
-## 📁 Link do Figma
-
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/file/uXjoavDEvDjyE8LsXgliGx/Indexa-%7C-Angular---Primeiros-Passos?type=design&node-id=320-7053&mode=design&t=5Kgod8QnM11BiTCA-0).
-
-## 🛠️ Abrir e rodar o projeto
-
-Você vai precisar do NodeJS, versão 18 ou maior.
-
-Após baixar o projeto, você precisa instalar as dependências utilizando o comando:
-
-```bash
-npm install
-```
-
-Depois, para executar o projeto em modo desenvolvimento:
-
-```bash
-ng serve
-```
-
-Depois, acesse [http://localhost:4200/](url) no seu navegador.
