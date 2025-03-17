@@ -18,9 +18,9 @@ export class PerfilContatoComponent {
   contato: Contato = {
     id: 0,
     nome: 'dev',
-    telefone: '123123123',
+    telefone: '',
     email: 'dev@email.com',
     aniversario: '12/10/1990',
-    redes: 'dev.com'
+    redes: ''
   }
 }
