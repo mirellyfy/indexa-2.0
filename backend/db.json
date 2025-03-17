@@ -12,11 +12,20 @@
     {
       "nome": "João",
       "telefone": "88 88888888",
-      "email": "maria@email.com",
+      "email": "joao@email.com",
       "aniversario": "06/01/1990",
       "redes": "",
       "observacoes": "",
       "id": 2
+    },
+    {
+      "nome": "teste",
+      "telefone": "99999",
+      "email": "teste@email.com",
+      "aniversario": "",
+      "redes": "",
+      "observacoes": "",
+      "id": 3
     }
   ]
 }
