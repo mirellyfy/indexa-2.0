@@ -18,7 +18,18 @@ export class ContatoService {
     return this.http.get<Contato[]>(this.API);
   }
 
-  salvarContato(contato: Contato) {
+  salvarContato(contato: Contato): Observable<Contato> {
     return this.http.post<Contato>(this.API,contato)
   }
+
+  buscarPorId(id: number): Observable<Contato> {
+    const url = `${this.API}/${id}`
+    return this.http.get<Contato>(url)
+  }
+  excluirContato(id: number): Observable<Contato> {
+    const url = `${this.API}/${id}`
+    return this.http.delete<Contato>(url)
+  }
+
+
 }

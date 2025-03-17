@@ -17,15 +17,6 @@
       "redes": "",
       "observacoes": "",
       "id": 2
-    },
-    {
-      "nome": "teste",
-      "telefone": "99999",
-      "email": "teste@email.com",
-      "aniversario": null,
-      "redes": null,
-      "observacoes": null,
-      "id": 3
     }
   ]
 }
