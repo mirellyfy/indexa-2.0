@@ -23,7 +23,8 @@
       type="file" 
       accept="image/*" 
       id="avatar"
-      required>
+      required
+      (change)="aoSelecionarArquivo($event)">
     </div>
     <label for="nome">Nome</label>
     <input
