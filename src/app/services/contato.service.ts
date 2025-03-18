@@ -42,5 +42,4 @@ export class ContatoService {
       return this.salvarContato(contato)
     }
   }
-
 }

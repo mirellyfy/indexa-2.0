@@ -39,7 +39,7 @@ ngOnInit(): void {
   if(id) {
     this.contatoService.buscarPorId(parseInt(id)).subscribe((contato) => {
       this.contato = contato
-    })
+    });
   }
 }
 

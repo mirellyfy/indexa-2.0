@@ -68,5 +68,6 @@ export class FormularioContatoComponent implements OnInit {
 
   cancelar() {
     this.contatoForm.reset();
+    this.router.navigateByUrl('/lista-contatos');
   }
 }
