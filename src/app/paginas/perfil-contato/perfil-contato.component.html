@@ -10,13 +10,16 @@
           </div>
         </section>
         <section class="cabecalho-contato">
-          <img src="assets/perfil-contato.png" alt="">
           <h1>Perfil do contato</h1>
         </section>
       </header>
 
   <section class="perfil">
-
+      <div class="imagem-perfil">
+        <img [src]="contato.avatar" alt="Avatar do contato">
+        <h2><strong>{{ contato.nome }}</strong></h2>
+      </div>
+      <app-separador></app-separador>
     <ul>
       <li>
         <i class="material-icons">call</i>
@@ -50,4 +53,4 @@
     </div>
 
   </section>
-</app-container>
+</app-container> 

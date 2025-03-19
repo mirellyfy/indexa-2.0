@@ -32,7 +32,7 @@ header .cabecalho-link a {
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0px;
-  color: #0D6EFD;
+  color: #034E13;
 }
 
 header .cabecalho-contato {
@@ -49,7 +49,7 @@ h1 {
   line-height: 39px;
   letter-spacing: 0px;
   text-align: center;
-  color: #0D6EFD;
+  color: #034E13;
   margin: 12px 0;
 }
 
@@ -147,28 +147,22 @@ input:focus {
 }
 
 .botao-cancelar {
-  color:#0D6EFD;
+  color:#034E13;
   background-color: #FFFFFF;
-  border: 1px solid #0D6EFD;
+  border: 1px solid #034E13;
   cursor: pointer;
 
 }
 
 .botao-salvar {
   color:#FFFFFF;
-  background-color: #0D6EFD;
+  background-color: #034E13;
   cursor: pointer;
 }
 
 .botao-desabilitado {
   background-color: #ADB5BD;
   cursor:not-allowed;
-}
-
-.mensagem-erro {
-  font-size: 16px;
-  color: red;
-  margin-bottom: 12px;
 }
 
 .imagem-contato {

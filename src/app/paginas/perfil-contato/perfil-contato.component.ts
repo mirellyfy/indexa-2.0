@@ -4,15 +4,17 @@ import { ContainerComponent } from "../../componentes/container/container.compon
 import { Contato } from '../../componentes/contato/contato';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { ContatoService } from '../../services/contato.service';
+import { SeparadorComponent } from "../../componentes/separador/separador.component";
 
 @Component({
   selector: 'app-perfil-contato',
   standalone: true,
   imports: [
-     CommonModule,
-     ContainerComponent,
-     RouterLink
-    ],
+    CommonModule,
+    ContainerComponent,
+    RouterLink,
+    SeparadorComponent
+],
   templateUrl: './perfil-contato.component.html',
   styleUrl: './perfil-contato.component.css'
 })
@@ -41,7 +43,7 @@ ngOnInit(): void {
     this.contatoService.buscarPorId(parseInt(id)).subscribe((contato) => {
       this.contato = contato
     });
-  }
+  } 
 }
 
   excluir() {
