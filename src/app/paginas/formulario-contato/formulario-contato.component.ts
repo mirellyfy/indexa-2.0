@@ -81,7 +81,7 @@ export class FormularioContatoComponent implements OnInit {
         this.contatoForm.get('avatar')?.setValue(reader.result)
       }
     }
-    reader.readAsDataURL(file)
+    reader.readAsDataURL(file);
   }
 
   cancelar() {
