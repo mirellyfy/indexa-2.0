@@ -18,6 +18,12 @@ O projeto possui uma seção de perfil, acessível ao clicar na foto do contato.
 
 ![Prévia do Vídeo](/img/video.perfil.gif)
 
+<hr>
+
+O projeto também conta com a funcionalidade de adicionar contatos, permitindo incluir uma imagem, bem como informações pessoais, como nome, e-mail e link para uma rede social. Além disso, é possível adicionar descrições ao contato.
+
+![Prévia do Vídeo](/img/video.adicionar.gif)
+
 ## ✔️ Técnicas e tecnologias utilizadas
 
 As técnicas e tecnologias utilizadas pra isso são:
