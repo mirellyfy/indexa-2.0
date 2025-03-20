@@ -3,7 +3,7 @@
 
 Uma aplicação para manipulação de contatos de uma agenda com o tema do jogo Stardew Valley.
 
-![Descrição da Imagem](/src/assets/readme.img.png)
+![Descrição da Imagem](/assets/readme.img.png)
 
 
 ## 🔨 Funcionalidades do projeto
