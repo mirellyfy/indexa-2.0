@@ -1,12 +1,14 @@
 
-# Indexa-Stardew-Valley
+# <p align="center">Indexa-Stardew-Valley</p>
 
-Uma aplicação para manipulação de contatos de uma agenda com o tema do jogo Stardew Valley.
+<p align="center">
+  Uma aplicação para manipulação de contatos de uma agenda com o tema do jogo Stardew Valley.
+</p>
 
 ![Descrição da Imagem](/img/readme.img.png)
 
 
-## 🔨 Funcionalidades do projeto
+## Funcionalidades do projeto
 
 O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo.
 
