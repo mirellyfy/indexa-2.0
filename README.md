@@ -3,10 +3,8 @@
 
 Uma aplicação para manipulação de contatos de uma agenda com o tema do jogo Stardew Valley.
 
-<video width="600" controls>
-  <source src="/img/tela.video.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
+![Prévia do Vídeo](/img/video.tela.gif)
+
 
 
 ## 🔨 Funcionalidades do projeto
