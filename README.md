@@ -3,14 +3,20 @@
 
 Uma aplicação para manipulação de contatos de uma agenda com o tema do jogo Stardew Valley.
 
-![Prévia do Vídeo](/img/video.tela.gif)
-
+![Descrição da Imagem](/img/readme.img.png)
 
 
 ## 🔨 Funcionalidades do projeto
 
-O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo. Também é possível adicionar um novo contato.
+O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo.
 
+![Prévia do Vídeo](/img/video.tela.gif)
+
+<hr>
+
+O projeto possui uma seção de perfil, acessível ao clicar na foto do contato. Além disso, há opções para edição, que exibem os dados do contato ao serem selecionadas, e para exclusão, permitindo a remoção do registro.
+
+![Prévia do Vídeo](/img/video.perfil.gif)
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
