@@ -8,21 +8,33 @@
 ![Descrição da Imagem](/img/readme.img.png)
 
 
-## Funcionalidades do projeto
+## <p align="center">Funcionalidades do projeto</p>
 
-O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo.
+<p align="center">
+  O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo.
+</p>
+
 
 ![Prévia do Vídeo](/img/video.tela.gif)
 
 <hr>
 
-O projeto possui uma seção de perfil, acessível ao clicar na foto do contato. Além disso, há opções para edição, que exibem os dados do contato ao serem selecionadas, e para exclusão, permitindo a remoção do registro.
+<p align="center">
+  O projeto possui uma seção de perfil, acessível ao clicar na foto do contato.  
+  Além disso, há opções para edição, que exibem os dados do contato ao serem selecionadas,  
+  e para exclusão, permitindo a remoção do registro.
+</p>
+
 
 ![Prévia do Vídeo](/img/video.perfil.gif)
 
 <hr>
+ <p align="center">
+  O projeto também conta com a funcionalidade de adicionar contatos, permitindo incluir uma imagem,  
+  bem como informações pessoais, como nome, e-mail e link para uma rede social.  
+  Além disso, é possível adicionar descrições ao contato.
+</p>
 
-O projeto também conta com a funcionalidade de adicionar contatos, permitindo incluir uma imagem, bem como informações pessoais, como nome, e-mail e link para uma rede social. Além disso, é possível adicionar descrições ao contato.
 
 ![Prévia do Vídeo](/img/video.adicionar.gif)
 
