@@ -28,9 +28,10 @@
     </div>
 
     @if(contatoForm.get('avatar')?.value !=='') {
-        <figure>
-          <img [src]="contatoForm.get('avatar')?.value" alt="Avatar do contato">
-        </figure>
+      <figure *ngIf="contatoForm.get('avatar')?.value !== ''">
+        <img [src]="contatoForm.get('avatar')?.value" alt="Avatar do contato">
+      </figure>
+      
     }
 
     <label for="nome">Nome</label>

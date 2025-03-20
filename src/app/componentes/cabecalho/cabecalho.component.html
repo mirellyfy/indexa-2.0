@@ -1,4 +1,12 @@
 <header class="cabecalho">
     <img src="/assets/logo.png" class="logo">
-    <h1 class="titulo">Lista De <span>contatos</span></h1>
+    @if(!telaInicial) {
+        <div class="link">
+            <button>
+              <img class="seta" src="assets/arrow-left.png" alt="">
+              <a routerLink="/lista-contatos">Voltar</a>
+            </button>
+          </div>
+    }
+    <h1 [innerText]="titulo" class="titulo"></h1>
 </header>
