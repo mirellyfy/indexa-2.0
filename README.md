@@ -3,15 +3,16 @@
 
 Uma aplicação para manipulação de contatos de uma agenda com o tema do jogo Stardew Valley.
 
-![Descrição da Imagem](/img/readme.img.png)
+<video width="600" controls>
+  <source src="/img/tela.video.mp4" type="video/mp4">
+  Seu navegador não suporta a tag de vídeo.
+</video>
 
 
 ## 🔨 Funcionalidades do projeto
 
 O App lista os contatos, exibindo nome e telefone, de acordo com a letra inicial e possui um filtro interativo. Também é possível adicionar um novo contato.
 
-Neste curso, será desenvolvida a tela de perfil, com detalhes do contato.
-Também serão implementadas as funcionalidades de edição e exclusão de contatos utilizando o HttpClient do angular.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
